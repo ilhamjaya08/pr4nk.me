@@ -3,7 +3,7 @@ const Footer = () => {
     let year = date.getFullYear();
     return (
         <>
-        <footer className="bg-gray-900">
+        <footer className="bg-indigo-600">
   <div className="max-w-screen-xl px-4 pt-16 pb-6 mx-auto sm:px-6 lg:px-8 lg:pt-24">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>
@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
 
         <p
-          className="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-400 sm:max-w-xs sm:mx-0 sm:text-left"
+          className="max-w-md mx-auto mt-6 leading-relaxed text-center text-black-400 sm:max-w-xs sm:mx-0 sm:text-left"
         >
           Just a simple prank platform, only used for fun and jokes, don't take it seriously bro!
         </p>
@@ -351,7 +351,7 @@ const Footer = () => {
           </a>
         </p>
 
-        <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
+        <p className="mt-4 text-sm text-black-500 sm:order-first sm:mt-0">
           &copy; {year} ilhamjaya08 & others team and contributors
         </p>
       </div>
